@@ -38,6 +38,7 @@ body {
 
 <div class="topnav">
     <a class="{% block nav_here %}{% endblock %}" href="{{ url_for('home') }}">Home</a>
+    <a class="{% block nav_post %}{% endblock %}"href="{{ url_for('post') }}">Post</a>
     <a class="{% block nav_reg %}{% endblock %}"href="{{ url_for('register') }}">Register</a>
     <a class="{% block nav_log %}{% endblock %}"href="{{ url_for('login') }}">Login</a>
     <a class="{% block nav_about %}{% endblock %}"href="{{ url_for('about') }}">About</a>
